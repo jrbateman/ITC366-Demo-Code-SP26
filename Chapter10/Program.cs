@@ -91,6 +91,8 @@
 			// Creating and Using Abstract Classes
 
 			/*
+			  https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/abstract
+			  
 			 Virtual methods have an implementation and provide the derived classes with the option of overriding it. 
 			 Abstract methods do not provide an implementation and force the derived classes to override the method.
 
@@ -171,7 +173,7 @@
 					A user must use the override keyword before the method which is declared as abstract in child class, 
 						the abstract class is used to inherit in the child class.
 					It can contains constructors.
-					It can implement functions with non-Abstract methods.
+					It can implement functions with non-Abstract methods.      <---- Signifant difference
 					It cannot support multiple inheritance.
 					It can’t be static.
 
@@ -188,10 +190,6 @@
 					Interfaces add a plug and play like architecture into applications.
 
 			*/
-
-
-
-
 
 		}
 
@@ -299,7 +297,7 @@
 			Console.WriteLine("Do some really cool Interface stuff...");
 		}
 	}
-	interface Vehicle
+	interface IVehicle
 	{
 		void changeGear(int a);
 		void speedUp(int a);
@@ -308,7 +306,7 @@
 	}
 
 	// class implements interface 
-	class Bicycle : Vehicle
+	class Bicycle : IVehicle
 	{
 
 		int speed;
@@ -347,7 +345,7 @@
     }
 }
 	// class implements interface 
-	class Car : Vehicle
+	class Car : IVehicle
 	{
 
 		int speed;
