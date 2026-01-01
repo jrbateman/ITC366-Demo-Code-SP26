@@ -8,4 +8,4 @@ Topics include graphical user interfaces, event handling, exception handling, in
 
 The code presented here is a combination of work by the class instructor and the author of the text book.
 
-Joyce Farrell, Microsoft® Visual C#®: An Introduction to Object-Oriented Programming, Seventh Edition, ISBN: 9781337102100. Cengage 2018.
+Joyce Farrell, Microsoft® Visual C#®: An Introduction to Object-Oriented Programming, Eighth Edition, ISBN: 9781337102100. Cengage 2025.
